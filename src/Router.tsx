@@ -4,6 +4,7 @@ import NotMatch from './pages/NotMatch'
 import Dashboard from './pages/Dashboard'
 import Sample from './pages/Sample'
 import ComingSoon from './pages/ComingSoon'
+import DesignSystem from './pages/DesignSystem'
 
 export default function Router() {
     return (
@@ -13,6 +14,7 @@ export default function Router() {
                 <Route path="pages">
                     <Route path="sample" element={<Sample />} />
                     <Route path="feature" element={<ComingSoon />} />
+                    <Route path="design-system" element={<DesignSystem />} />
                 </Route>
                 <Route path="*" element={<NotMatch />} />
             </Route>

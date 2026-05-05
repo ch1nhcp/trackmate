@@ -33,6 +33,10 @@ export const mainMenu: MenuType = [
                 title: 'Coming Soon',
                 url: '/pages/feature',
             },
+            {
+                title: 'Design System',
+                url: '/pages/design-system',
+            },
         ]
     },
     {
