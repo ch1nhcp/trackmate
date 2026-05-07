@@ -9,8 +9,8 @@ import DesignSystem from './pages/DesignSystem'
 export default function Router() {
     return (
         <Routes>
+            <Route path="" element={<Dashboard />} />
             <Route element={<AppLayout />}>
-                <Route path="" element={<Dashboard />} />
                 <Route path="pages">
                     <Route path="sample" element={<Sample />} />
                     <Route path="feature" element={<ComingSoon />} />
